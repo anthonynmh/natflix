@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  outline: 1px dotted red;
+  /*outline: 1px dotted red;*/
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   background-color: #141414;
 }
 
-.topRow {
+#topRow {
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
@@ -22,36 +22,27 @@ body {
 
 .mainName {
   font-family: arial, sans-serif;
-  font-size: 25px;
-  color: red;
+  font-size: 35px;
+  color: #E50815;
   text-decoration: none;
-  margin: 10px;
+  margin: 10px 25px 10px 60px;
 }
 
 .navBar {
   display: inline-flex;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px 0px;
 }
 
 .nav {
   font-family: arial, sans-serif;
-  color: white;
+  font-size: 15px;
+  color: #E5E5E5;
   text-decoration: none;
   display: inline-block;
   margin: 10px;
-  padding: 5px;
+  padding: 0px;
 }
-
-/*
-.search-container {
-  margin: 10px;
-  display: inline-block;
-  align-items: center;
-  align-content: center;
-}
-*/
 
 #form {
   margin: 10px;
@@ -59,4 +50,29 @@ body {
   align-content: center;
   align-items: center;
   padding: 10px;
+}
+
+#query {
+  background-color: #141414;
+  outline: 1px solid white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color: #E5E5E5;
+}
+
+.poster {
+  height: 120px;
+  width: 215px;
+}
+
+.movieContainer {
+  margin: 3px;
+  float: left;
+}
+
+#displayMovies {
+  margin: 20px 60px;
+  overflow-x: scroll;
+  min-width: 1300px;
 }
