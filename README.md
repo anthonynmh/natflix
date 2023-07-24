@@ -1,5 +1,6 @@
 # Natflix
 
-Replica of netflix, for practice.
+Replica of netflix, to practice HTML, CSS, JavaScript.
+Movie data fetched from TMDB api.
 
 Deployed on: https://natflix-tutorial.netlify.app/
